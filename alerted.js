@@ -1,6 +1,7 @@
 ﻿/*!
  *  Name: Alerted.js
  *  Description: Sweetalert2 depended semi customizable alert and confirmation dialogs.
+ *  Github: https://github.com/eIektro/Alerted.js
  *  License: MIT License
  *  (c) 2020-2021 M. Emre Koral
  */
