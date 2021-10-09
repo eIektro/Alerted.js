@@ -6,8 +6,6 @@
  *  (c) 2020-2021 M. Emre Koral
  */
 
-
-
 /**
  * Usage: FOR CONFIRMATION ALERT. 
  * @param {any} description Displays on the body of alert dialog
@@ -38,9 +36,8 @@ var confirmationAlert = (description, title, handleResponse) => {
 }
 
 
-
 /**
- * Usage: BEFORE DELETE REQUEST. Description: Sweetalert2 depended semi customizable alert and confirmation dialogs. -M.E.K.
+ * Usage: BEFORE DELETE REQUEST.
  * @param {any} description Displays on the body of alert dialog
  * @param {any} title Alert dialog title
  * @param {any} handleResponse function to be run when you click Yes
@@ -69,7 +66,7 @@ var deleteRequestAlert = (description, title, handleResponse) => {
 }
 
 /**
- * Usage: AFTER FAIL RESPONSE. Description: Sweetalert2 depended semi customizable alert and confirmation dialogs. -M.E.K.
+ * Usage: AFTER FAIL RESPONSE.
  * @param {any} description Displays on the body of alert dialog
  * @param {any} title Alert dialog title
  * @param {any} handleResponse function to be when dialog closing
@@ -94,7 +91,7 @@ var failResponseAlert = (description, title, afterClosing) => {
 }
 
 /**
- * Usage: AFTER SUCCESS RESPONSE. Description: Sweetalert2 depended semi customizable alert and confirmation dialogs. -M.E.K.
+ * Usage: AFTER SUCCESS RESPONSE.
  * @param {any} description Displays on the body of alert dialog
  * @param {any} title Alert dialog title
  * @param {any} handleResponse function to be when dialog closing
